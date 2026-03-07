@@ -1,0 +1,667 @@
+[00:00:01.056] Server  LOG     
+[00:00:01.056] Server  LOG       We detected TypeScript in your project and reconfigured your tsconfig.json file for you.
+[00:00:01.057] Server  LOG       The following suggested values were added to your tsconfig.json. These values can be changed to fit your project's needs:
+
+[00:00:01.057] Server  LOG       	- include was updated to add '.next/types/**/*.ts'
+[00:00:01.058] Server  LOG       	- include was updated to add '.next/dev/types/**/*.ts'
+[00:00:01.058] Server  LOG     
+[00:00:01.247] Server  LOG     ✓ Ready in 885ms
+[00:00:02.779] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:04:59.542] Server  ERROR   ⨯ ./src/app/layout.tsx:4:1
+Module not found: Can't resolve '../lib/provider/provider'
+  2 | import { Geist, Geist_Mono } from "next/font/google";
+  3 | import "./globals.css";
+> 4 | import { ReduxProvider } from "../lib/provider/provider";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 |
+  7 | const geistSans = Geist({
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:59.543] Server  ERROR   ⨯ ./src/app/layout.tsx:4:1
+Module not found: Can't resolve '../lib/provider/provider'
+  2 | import { Geist, Geist_Mono } from "next/font/google";
+  3 | import "./globals.css";
+> 4 | import { ReduxProvider } from "../lib/provider/provider";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 |
+  7 | const geistSans = Geist({
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:59.544] Server  ERROR   ⨯ ./src/app/layout.tsx:4:1
+Module not found: Can't resolve '../lib/provider/provider'
+  2 | import { Geist, Geist_Mono } from "next/font/google";
+  3 | import "./globals.css";
+> 4 | import { ReduxProvider } from "../lib/provider/provider";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 |
+  7 | const geistSans = Geist({
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:59.545] Server  ERROR   ⨯ ./src/app/layout.tsx:4:1
+Module not found: Can't resolve '../lib/provider/provider'
+  2 | import { Geist, Geist_Mono } from "next/font/google";
+  3 | import "./globals.css";
+> 4 | import { ReduxProvider } from "../lib/provider/provider";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 |
+  7 | const geistSans = Geist({
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:59.546] Server  ERROR   ⨯ ./src/app/layout.tsx:4:1
+Module not found: Can't resolve '../lib/provider/provider'
+  2 | import { Geist, Geist_Mono } from "next/font/google";
+  3 | import "./globals.css";
+> 4 | import { ReduxProvider } from "../lib/provider/provider";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 |
+  7 | const geistSans = Geist({
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:59.547] Server  ERROR   ⨯ ./src/app/layout.tsx:4:1
+Module not found: Can't resolve '../lib/provider/provider'
+  2 | import { Geist, Geist_Mono } from "next/font/google";
+  3 | import "./globals.css";
+> 4 | import { ReduxProvider } from "../lib/provider/provider";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 |
+  7 | const geistSans = Geist({
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:59.548] Server  ERROR   ⨯ ./src/app/layout.tsx:4:1
+Module not found: Can't resolve '../lib/provider/provider'
+  2 | import { Geist, Geist_Mono } from "next/font/google";
+  3 | import "./globals.css";
+> 4 | import { ReduxProvider } from "../lib/provider/provider";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 |
+  7 | const geistSans = Geist({
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:59.549] Server  ERROR   ⨯ ./src/app/layout.tsx:4:1
+Module not found: Can't resolve '../lib/provider/provider'
+  2 | import { Geist, Geist_Mono } from "next/font/google";
+  3 | import "./globals.css";
+> 4 | import { ReduxProvider } from "../lib/provider/provider";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 |
+  7 | const geistSans = Geist({
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:59.550] Server  ERROR   ⨯ ./src/app/layout.tsx:4:1
+Module not found: Can't resolve '../lib/provider/provider'
+  2 | import { Geist, Geist_Mono } from "next/font/google";
+  3 | import "./globals.css";
+> 4 | import { ReduxProvider } from "../lib/provider/provider";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 |
+  7 | const geistSans = Geist({
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:59.551] Server  ERROR   ⨯ ./src/app/layout.tsx:4:1
+Module not found: Can't resolve '../lib/provider/provider'
+  2 | import { Geist, Geist_Mono } from "next/font/google";
+  3 | import "./globals.css";
+> 4 | import { ReduxProvider } from "../lib/provider/provider";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 |
+  7 | const geistSans = Geist({
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:59.552] Server  ERROR   ⨯ ./src/app/layout.tsx:4:1
+Module not found: Can't resolve '../lib/provider/provider'
+  2 | import { Geist, Geist_Mono } from "next/font/google";
+  3 | import "./globals.css";
+> 4 | import { ReduxProvider } from "../lib/provider/provider";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 |
+  7 | const geistSans = Geist({
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:59.553] Server  ERROR   ⨯ ./src/app/layout.tsx:4:1
+Module not found: Can't resolve '../lib/provider/provider'
+  2 | import { Geist, Geist_Mono } from "next/font/google";
+  3 | import "./globals.css";
+> 4 | import { ReduxProvider } from "../lib/provider/provider";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 |
+  7 | const geistSans = Geist({
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:59.555] Server  ERROR   ⨯ ./src/app/register/registerPage.tsx:10:1
+Module not found: Can't resolve '@/src/lib/components/bodyanimators'
+   8 | import { toast } from "react-toastify";
+   9 | import { useRouter } from "next/navigation";
+> 10 | import BorderAnimation from "@/src/lib/components/bodyanimators";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MessageCircleIcon } from "lucide-react";
+  12 |
+  13 | const RegisterPage = () => {
+
+Import map: aliased to relative './src/lib/components/bodyanimators' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/app/register/registerPage.tsx
+    ./src/app/register/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:59.557] Server  ERROR   ⨯ ./src/app/register/registerPage.tsx:10:1
+Module not found: Can't resolve '@/src/lib/components/bodyanimators'
+   8 | import { toast } from "react-toastify";
+   9 | import { useRouter } from "next/navigation";
+> 10 | import BorderAnimation from "@/src/lib/components/bodyanimators";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MessageCircleIcon } from "lucide-react";
+  12 |
+  13 | const RegisterPage = () => {
+
+Import map: aliased to relative './src/lib/components/bodyanimators' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/app/register/registerPage.tsx
+    ./src/app/register/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:59.558] Server  ERROR   ⨯ ./src/app/register/registerPage.tsx:10:1
+Module not found: Can't resolve '@/src/lib/components/bodyanimators'
+   8 | import { toast } from "react-toastify";
+   9 | import { useRouter } from "next/navigation";
+> 10 | import BorderAnimation from "@/src/lib/components/bodyanimators";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MessageCircleIcon } from "lucide-react";
+  12 |
+  13 | const RegisterPage = () => {
+
+Import map: aliased to relative './src/lib/components/bodyanimators' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/app/register/registerPage.tsx
+    ./src/app/register/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:59.562] Server  ERROR   ⨯ ./src/app/register/registerPage.tsx:10:1
+Module not found: Can't resolve '@/src/lib/components/bodyanimators'
+   8 | import { toast } from "react-toastify";
+   9 | import { useRouter } from "next/navigation";
+> 10 | import BorderAnimation from "@/src/lib/components/bodyanimators";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MessageCircleIcon } from "lucide-react";
+  12 |
+  13 | const RegisterPage = () => {
+
+Import map: aliased to relative './src/lib/components/bodyanimators' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/app/register/registerPage.tsx
+    ./src/app/register/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:59.563] Server  ERROR   ⨯ ./src/app/register/registerPage.tsx:6:1
+Module not found: Can't resolve '@/src/lib/store/auth/auths-slice'
+  4 | import { RegisterData } from "./register-types";
+  5 | import { useAppDispatch, useAppSelector } from "@/src/lib/store/hook";
+> 6 | import { registerUser } from "@/src/lib/store/auth/auths-slice";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { Status } from "@/src/lib/types/global-type";
+  8 | import { toast } from "react-toastify";
+  9 | import { useRouter } from "next/navigation";
+
+Import map: aliased to relative './src/lib/store/auth/auths-slice' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/app/register/registerPage.tsx
+    ./src/app/register/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:59.565] Server  ERROR   ⨯ ./src/app/register/registerPage.tsx:6:1
+Module not found: Can't resolve '@/src/lib/store/auth/auths-slice'
+  4 | import { RegisterData } from "./register-types";
+  5 | import { useAppDispatch, useAppSelector } from "@/src/lib/store/hook";
+> 6 | import { registerUser } from "@/src/lib/store/auth/auths-slice";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { Status } from "@/src/lib/types/global-type";
+  8 | import { toast } from "react-toastify";
+  9 | import { useRouter } from "next/navigation";
+
+Import map: aliased to relative './src/lib/store/auth/auths-slice' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/app/register/registerPage.tsx
+    ./src/app/register/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:59.566] Server  ERROR   ⨯ ./src/app/register/registerPage.tsx:6:1
+Module not found: Can't resolve '@/src/lib/store/auth/auths-slice'
+  4 | import { RegisterData } from "./register-types";
+  5 | import { useAppDispatch, useAppSelector } from "@/src/lib/store/hook";
+> 6 | import { registerUser } from "@/src/lib/store/auth/auths-slice";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { Status } from "@/src/lib/types/global-type";
+  8 | import { toast } from "react-toastify";
+  9 | import { useRouter } from "next/navigation";
+
+Import map: aliased to relative './src/lib/store/auth/auths-slice' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/app/register/registerPage.tsx
+    ./src/app/register/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:59.567] Server  ERROR   ⨯ ./src/app/register/registerPage.tsx:6:1
+Module not found: Can't resolve '@/src/lib/store/auth/auths-slice'
+  4 | import { RegisterData } from "./register-types";
+  5 | import { useAppDispatch, useAppSelector } from "@/src/lib/store/hook";
+> 6 | import { registerUser } from "@/src/lib/store/auth/auths-slice";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { Status } from "@/src/lib/types/global-type";
+  8 | import { toast } from "react-toastify";
+  9 | import { useRouter } from "next/navigation";
+
+Import map: aliased to relative './src/lib/store/auth/auths-slice' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/app/register/registerPage.tsx
+    ./src/app/register/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:59.568] Server  ERROR   ⨯ ./src/app/register/registerPage.tsx:5:1
+Module not found: Can't resolve '@/src/lib/store/hook'
+  3 | import { ChangeEvent, FormEvent, useEffect, useState } from "react";
+  4 | import { RegisterData } from "./register-types";
+> 5 | import { useAppDispatch, useAppSelector } from "@/src/lib/store/hook";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { registerUser } from "@/src/lib/store/auth/auths-slice";
+  7 | import { Status } from "@/src/lib/types/global-type";
+  8 | import { toast } from "react-toastify";
+
+Import map: aliased to relative './src/lib/store/hook' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/app/register/registerPage.tsx
+    ./src/app/register/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:59.569] Server  ERROR   ⨯ ./src/app/register/registerPage.tsx:5:1
+Module not found: Can't resolve '@/src/lib/store/hook'
+  3 | import { ChangeEvent, FormEvent, useEffect, useState } from "react";
+  4 | import { RegisterData } from "./register-types";
+> 5 | import { useAppDispatch, useAppSelector } from "@/src/lib/store/hook";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { registerUser } from "@/src/lib/store/auth/auths-slice";
+  7 | import { Status } from "@/src/lib/types/global-type";
+  8 | import { toast } from "react-toastify";
+
+Import map: aliased to relative './src/lib/store/hook' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/app/register/registerPage.tsx
+    ./src/app/register/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:59.570] Server  ERROR   ⨯ ./src/app/register/registerPage.tsx:5:1
+Module not found: Can't resolve '@/src/lib/store/hook'
+  3 | import { ChangeEvent, FormEvent, useEffect, useState } from "react";
+  4 | import { RegisterData } from "./register-types";
+> 5 | import { useAppDispatch, useAppSelector } from "@/src/lib/store/hook";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { registerUser } from "@/src/lib/store/auth/auths-slice";
+  7 | import { Status } from "@/src/lib/types/global-type";
+  8 | import { toast } from "react-toastify";
+
+Import map: aliased to relative './src/lib/store/hook' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/app/register/registerPage.tsx
+    ./src/app/register/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:59.572] Server  ERROR   ⨯ ./src/app/register/registerPage.tsx:5:1
+Module not found: Can't resolve '@/src/lib/store/hook'
+  3 | import { ChangeEvent, FormEvent, useEffect, useState } from "react";
+  4 | import { RegisterData } from "./register-types";
+> 5 | import { useAppDispatch, useAppSelector } from "@/src/lib/store/hook";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { registerUser } from "@/src/lib/store/auth/auths-slice";
+  7 | import { Status } from "@/src/lib/types/global-type";
+  8 | import { toast } from "react-toastify";
+
+Import map: aliased to relative './src/lib/store/hook' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/app/register/registerPage.tsx
+    ./src/app/register/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:59.573] Server  ERROR   ⨯ ./src/app/register/registerPage.tsx:5:1
+Module not found: Can't resolve '@/src/lib/store/hook'
+  3 | import { ChangeEvent, FormEvent, useEffect, useState } from "react";
+  4 | import { RegisterData } from "./register-types";
+> 5 | import { useAppDispatch, useAppSelector } from "@/src/lib/store/hook";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { registerUser } from "@/src/lib/store/auth/auths-slice";
+  7 | import { Status } from "@/src/lib/types/global-type";
+  8 | import { toast } from "react-toastify";
+
+Import map: aliased to relative './src/lib/store/hook' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/app/register/registerPage.tsx
+    ./src/app/register/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:59.574] Server  ERROR   ⨯ ./src/app/register/registerPage.tsx:5:1
+Module not found: Can't resolve '@/src/lib/store/hook'
+  3 | import { ChangeEvent, FormEvent, useEffect, useState } from "react";
+  4 | import { RegisterData } from "./register-types";
+> 5 | import { useAppDispatch, useAppSelector } from "@/src/lib/store/hook";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { registerUser } from "@/src/lib/store/auth/auths-slice";
+  7 | import { Status } from "@/src/lib/types/global-type";
+  8 | import { toast } from "react-toastify";
+
+Import map: aliased to relative './src/lib/store/hook' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/app/register/registerPage.tsx
+    ./src/app/register/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:59.575] Server  ERROR   ⨯ ./src/app/register/registerPage.tsx:7:1
+Module not found: Can't resolve '@/src/lib/types/global-type'
+   5 | import { useAppDispatch, useAppSelector } from "@/src/lib/store/hook";
+   6 | import { registerUser } from "@/src/lib/store/auth/auths-slice";
+>  7 | import { Status } from "@/src/lib/types/global-type";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import { toast } from "react-toastify";
+   9 | import { useRouter } from "next/navigation";
+  10 | import BorderAnimation from "@/src/lib/components/bodyanimators";
+
+Import map: aliased to relative './src/lib/types/global-type' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/app/register/registerPage.tsx
+    ./src/app/register/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:59.577] Server  ERROR   ⨯ ./src/app/register/registerPage.tsx:7:1
+Module not found: Can't resolve '@/src/lib/types/global-type'
+   5 | import { useAppDispatch, useAppSelector } from "@/src/lib/store/hook";
+   6 | import { registerUser } from "@/src/lib/store/auth/auths-slice";
+>  7 | import { Status } from "@/src/lib/types/global-type";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import { toast } from "react-toastify";
+   9 | import { useRouter } from "next/navigation";
+  10 | import BorderAnimation from "@/src/lib/components/bodyanimators";
+
+Import map: aliased to relative './src/lib/types/global-type' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/app/register/registerPage.tsx
+    ./src/app/register/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:59.577] Server  ERROR   ⨯ ./src/app/register/registerPage.tsx:7:1
+Module not found: Can't resolve '@/src/lib/types/global-type'
+   5 | import { useAppDispatch, useAppSelector } from "@/src/lib/store/hook";
+   6 | import { registerUser } from "@/src/lib/store/auth/auths-slice";
+>  7 | import { Status } from "@/src/lib/types/global-type";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import { toast } from "react-toastify";
+   9 | import { useRouter } from "next/navigation";
+  10 | import BorderAnimation from "@/src/lib/components/bodyanimators";
+
+Import map: aliased to relative './src/lib/types/global-type' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/app/register/registerPage.tsx
+    ./src/app/register/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:59.579] Server  ERROR   ⨯ ./src/app/register/registerPage.tsx:7:1
+Module not found: Can't resolve '@/src/lib/types/global-type'
+   5 | import { useAppDispatch, useAppSelector } from "@/src/lib/store/hook";
+   6 | import { registerUser } from "@/src/lib/store/auth/auths-slice";
+>  7 | import { Status } from "@/src/lib/types/global-type";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import { toast } from "react-toastify";
+   9 | import { useRouter } from "next/navigation";
+  10 | import BorderAnimation from "@/src/lib/components/bodyanimators";
+
+Import map: aliased to relative './src/lib/types/global-type' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/app/register/registerPage.tsx
+    ./src/app/register/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:59.596] Server  LOG     ✓ Compiled in 102ms
+[00:04:59.878] Browser ERROR   ./src/app/layout.tsx:4:1
+Module not found: Can't resolve '../lib/provider/provider'
+  2 | import { Geist, Geist_Mono } from "next/font/google";
+  3 | import "./globals.css";
+> 4 | import { ReduxProvider } from "../lib/provider/provider";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 |
+  7 | const geistSans = Geist({
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:59.878] Browser ERROR   ./src/app/register/registerPage.tsx:10:1
+Module not found: Can't resolve '@/src/lib/components/bodyanimators'
+   8 | import { toast } from "react-toastify";
+   9 | import { useRouter } from "next/navigation";
+> 10 | import BorderAnimation from "@/src/lib/components/bodyanimators";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import { MessageCircleIcon } from "lucide-react";
+  12 |
+  13 | const RegisterPage = () => {
+
+Import map: aliased to relative './src/lib/components/bodyanimators' inside of [project]/
+
+Import trace:
+  Server Component:
+    ./src/app/register/registerPage.tsx
+    ./src/app/register/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:59.878] Browser ERROR   ./src/app/register/registerPage.tsx:6:1
+Module not found: Can't resolve '@/src/lib/store/auth/auths-slice'
+  4 | import { RegisterData } from "./register-types";
+  5 | import { useAppDispatch, useAppSelector } from "@/src/lib/store/hook";
+> 6 | import { registerUser } from "@/src/lib/store/auth/auths-slice";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { Status } from "@/src/lib/types/global-type";
+  8 | import { toast } from "react-toastify";
+  9 | import { useRouter } from "next/navigation";
+
+Import map: aliased to relative './src/lib/store/auth/auths-slice' inside of [project]/
+
+Import trace:
+  Server Component:
+    ./src/app/register/registerPage.tsx
+    ./src/app/register/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:59.878] Browser ERROR   ./src/app/register/registerPage.tsx:5:1
+Module not found: Can't resolve '@/src/lib/store/hook'
+  3 | import { ChangeEvent, FormEvent, useEffect, useState } from "react";
+  4 | import { RegisterData } from "./register-types";
+> 5 | import { useAppDispatch, useAppSelector } from "@/src/lib/store/hook";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { registerUser } from "@/src/lib/store/auth/auths-slice";
+  7 | import { Status } from "@/src/lib/types/global-type";
+  8 | import { toast } from "react-toastify";
+
+Import map: aliased to relative './src/lib/store/hook' inside of [project]/
+
+Import trace:
+  Server Component:
+    ./src/app/register/registerPage.tsx
+    ./src/app/register/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:59.878] Browser ERROR   ./src/app/register/registerPage.tsx:7:1
+Module not found: Can't resolve '@/src/lib/types/global-type'
+   5 | import { useAppDispatch, useAppSelector } from "@/src/lib/store/hook";
+   6 | import { registerUser } from "@/src/lib/store/auth/auths-slice";
+>  7 | import { Status } from "@/src/lib/types/global-type";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import { toast } from "react-toastify";
+   9 | import { useRouter } from "next/navigation";
+  10 | import BorderAnimation from "@/src/lib/components/bodyanimators";
+
+Import map: aliased to relative './src/lib/types/global-type' inside of [project]/
+
+Import trace:
+  Server Component:
+    ./src/app/register/registerPage.tsx
+    ./src/app/register/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:05:03.084] Server  LOG     ✓ Compiled in 92ms
+[00:05:03.422] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:37.556] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:06.250] Server  ERROR   Error: ENOENT: no such file or directory, scandir 'C:\Users\User\Downloads\chat-system\client\src\app'
+[00:08:06.256] Server  ERROR   ⨯ "unhandledRejection:" Error: ENOENT: no such file or directory, scandir 'C:\Users\User\Downloads\chat-system\client\src\app'
+[00:08:06.260] Server  ERROR   ⨯ "unhandledRejection: " Error: ENOENT: no such file or directory, scandir 'C:\Users\User\Downloads\chat-system\client\src\app'
+[00:08:06.268] Server  ERROR   Error: ENOENT: no such file or directory, scandir 'C:\Users\User\Downloads\chat-system\client\src\app'
+[00:08:06.271] Server  ERROR   Error: ENOENT: no such file or directory, scandir 'C:\Users\User\Downloads\chat-system\client\src\app'
+[00:08:06.280] Server  ERROR   Error: ENOENT: no such file or directory, scandir 'C:\Users\User\Downloads\chat-system\client\src\app'
+[00:08:06.283] Server  ERROR   Error: ENOENT: no such file or directory, scandir 'C:\Users\User\Downloads\chat-system\client\src\app'
+[00:08:06.291] Server  ERROR   Error: ENOENT: no such file or directory, scandir 'C:\Users\User\Downloads\chat-system\client\src\app'
+[00:08:06.294] Server  ERROR   Error: ENOENT: no such file or directory, scandir 'C:\Users\User\Downloads\chat-system\client\src\app'
+[00:08:06.309] Server  ERROR   Error: ENOENT: no such file or directory, scandir 'C:\Users\User\Downloads\chat-system\client\src\app'
+[00:08:06.312] Server  ERROR   Error: ENOENT: no such file or directory, scandir 'C:\Users\User\Downloads\chat-system\client\src\app'
+[00:08:06.323] Server  ERROR   Error: ENOENT: no such file or directory, scandir 'C:\Users\User\Downloads\chat-system\client\src\app'
+[00:08:06.326] Server  ERROR   Error: ENOENT: no such file or directory, scandir 'C:\Users\User\Downloads\chat-system\client\src\app'

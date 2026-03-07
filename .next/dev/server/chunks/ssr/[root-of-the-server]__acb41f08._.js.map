@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 17, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/User/Downloads/chat-system/client/src/app/otp-verification/page.tsx"],"sourcesContent":["const Otp = ()=>{\r\n    return\r\n}"],"names":[],"mappings":"AAAA,MAAM,MAAM;IACR;AACJ"}}]
+}
