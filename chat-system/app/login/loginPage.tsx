@@ -1,14 +1,18 @@
 "use client";
 
-import { useAppDispatch, useAppSelector } from "@/chat-system/src/lib/store/hook";
+
 import { useState, useEffect } from "react";
 import { LoginUserData } from "./login";
-import { loginUser } from "@/chat-system/src/lib/store/auth/auths-slice";
-import BorderAnimation from "@/chat-system/src/lib/components/bodyanimators";
+
 import { MessageCircleIcon } from "lucide-react";
-import { Status } from "@/chat-system/src/lib/types/global-type";
+
 import { useRouter } from "next/navigation";
 import { toast } from "react-toastify";
+import { useAppDispatch, useAppSelector } from "@/src/lib/store/hook";
+import { loginUser } from "@/src/lib/store/auth/auths-slice";
+import { Status } from "@/src/lib/types/global-type";
+import BorderAnimation from "@/src/lib/components/bodyanimators";
+import Link from "next/link";
 
 export const LoginPage = () => {
   const dispatch = useAppDispatch();
@@ -92,6 +96,15 @@ export const LoginPage = () => {
                     {status === Status.LOADING ? "Logging in..." : "Login"}
                   </button>
                 </form>
+                {/* Forgot Password Link */}
+<div className="text-right mt-2">
+  <Link
+    href="/forgot-password"
+    className="text-blue-400 hover:text-blue-500 hover:underline text-sm font-medium transition-colors"
+  >
+    Forgot password?
+  </Link>
+</div>
               </div>
             </div>
 

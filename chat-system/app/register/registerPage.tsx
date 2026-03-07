@@ -8,7 +8,9 @@ import { Status } from "..//../src/lib/types/global-type";
 import { toast } from "react-toastify";
 import { useRouter } from "next/navigation";
 import BorderAnimation from "..//../src/lib/components/bodyanimators";
-import { MessageCircleIcon } from "lucide-react";
+import {  MessageCircleIcon } from "lucide-react";
+import Link from "next/link";
+
 
 const RegisterPage = () => {
   const dispatch = useAppDispatch();
@@ -103,6 +105,13 @@ const handleSubmit = (e:FormEvent<HTMLFormElement>) => {
                   </button>
 
                 </form>
+               {/* Link to Login */}
+                <p className="text-center text-sm text-slate-300 mt-6">
+                  Already have an account?{" "}
+                  <Link href="/login" className="text-blue-400 hover:underline font-medium">
+                    Log in here
+                  </Link>
+                </p>
               </div>
             </div>
 

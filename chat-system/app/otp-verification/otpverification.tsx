@@ -1,12 +1,17 @@
 'use client'
 
-import { otpVerification, resendOtp } from "@/chat-system/src/lib/store/auth/auths-slice"
-import { useAppDispatch, useAppSelector } from "@/chat-system/src/lib/store/hook"
+
+import { otpVerification, resendOtp } from "@/src/lib/store/auth/auths-slice"
+import { useAppDispatch, useAppSelector } from "@/src/lib/store/hook"
 import { MessageCircleIcon } from "lucide-react"
 import { useEffect, useRef, useState } from "react"
+import { toast } from "react-toastify"
+import { useRouter } from "next/navigation";
+import { Status } from "@/src/lib/types/global-type"
+
 
 const OtpVerification = () => {
-
+ const router = useRouter();
   const dispatch = useAppDispatch()
   const { status, user } = useAppSelector((store) => store.auth)
 
@@ -107,6 +112,12 @@ console.log('user ', user?.email)
     })
   )
 }
+  useEffect(() => {
+    if (status === Status.SUCCESS) {
+      toast.success("Register successful!");
+      router.push(`/login`);
+    }
+  }, [status, router]);
 
   /* -------------------------
      Resend OTP
