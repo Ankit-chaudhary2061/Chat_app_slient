@@ -15,7 +15,7 @@ import Link from "next/link";
 const RegisterPage = () => {
   const dispatch = useAppDispatch();
   const router = useRouter();
-  const { status } = useAppSelector((store) => store.auth);
+  const { registerStatus} = useAppSelector((store) => store.auth);
 
   const [data, setData] = useState<RegisterData>({
     username: "",
@@ -38,11 +38,11 @@ const handleSubmit = (e:FormEvent<HTMLFormElement>) => {
 };
 
   useEffect(() => {
-    if (status === Status.SUCCESS) {
-      toast.success("Register successful!");
-      router.push(`/otp-verification?email=${data.email}`);
-    }
-  }, [status, router, data.email]);
+  if (registerStatus === Status.SUCCESS) {
+    toast.success("Register successful!");
+    router.push(`/otp-verification?email=${data.email}`);
+  }
+}, [registerStatus, router, data.email]);
 
   return (
     <div className="w-full min-h-screen flex items-center justify-center p-4 bg-slate-900">
@@ -97,12 +97,12 @@ const handleSubmit = (e:FormEvent<HTMLFormElement>) => {
                   />
 
                   <button
-                    type="submit"
-                    disabled={status === Status.LOADING}
-                    className="w-full p-3 rounded-lg bg-blue-600 hover:bg-blue-700 text-white font-semibold transition"
-                  >
-                    {status === Status.LOADING ? "Registering..." : "Register"}
-                  </button>
+  type="submit"
+  disabled={registerStatus === Status.LOADING}
+  className="w-full p-3 rounded-lg bg-blue-600 hover:bg-blue-700 text-white font-semibold transition"
+>
+  {registerStatus === Status.LOADING ? "Registering..." : "Register"}
+</button>
 
                 </form>
                {/* Link to Login */}

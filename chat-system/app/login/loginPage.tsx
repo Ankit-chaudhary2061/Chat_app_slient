@@ -1,15 +1,13 @@
 "use client";
 
-
 import { useState, useEffect } from "react";
 import { LoginUserData } from "./login";
 
 import { MessageCircleIcon } from "lucide-react";
-
 import { useRouter } from "next/navigation";
 import { toast } from "react-toastify";
 import { useAppDispatch, useAppSelector } from "@/src/lib/store/hook";
-import { loginUser } from "@/src/lib/store/auth/auths-slice";
+import { loginUser, forgotPassword } from "@/src/lib/store/auth/auths-slice";
 import { Status } from "@/src/lib/types/global-type";
 import BorderAnimation from "@/src/lib/components/bodyanimators";
 import Link from "next/link";
@@ -18,13 +16,16 @@ export const LoginPage = () => {
   const dispatch = useAppDispatch();
   const router = useRouter();
 
-  const { status, user } = useAppSelector((store) => store.auth);
+ const { loginStatus, forgotPasswordStatus, user } = useAppSelector(
+  (store) => store.auth
+);
 
   const [data, setData] = useState<LoginUserData>({
     email: "",
     password: "",
   });
 
+  // Handle input changes
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target;
     setData((prev) => ({
@@ -33,21 +34,51 @@ export const LoginPage = () => {
     }));
   };
 
+  // Handle form submission (login)
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     dispatch(loginUser(data));
   };
+const [isForgotPassword, setIsForgotPassword] = useState(false);
+  // Handle forgot password
+  const handleForgotPassword = () => {
+  if (!data.email) {
+    toast.error("Please enter your email first.");
+    return;
+  }
 
-  // Handle login success
-  useEffect(() => {
-    if (status === Status.SUCCESS && user?.email) {
-      toast.success("Login successful!");
-      router.push("/dashboard"); // Navigate to dashboard or home after login
-    } else if (status === Status.ERROR) {
-      toast.error("Login failed. Check your credentials.");
-    }
-  }, [status, router, user]);
+  setIsForgotPassword(true);
 
+  dispatch(forgotPassword({ email: data.email }));
+};
+
+  // Handle login success/error
+useEffect(() => {
+  // Forgot password success
+  if (forgotPasswordStatus === Status.SUCCESS && isForgotPassword) {
+    toast.success("Reset link sent to your email. Check your inbox!");
+    // Do NOT redirect to /reset-password; user must click the email link
+    return;
+  }
+
+  // Login success
+  if (loginStatus === Status.SUCCESS && user?.email) {
+    toast.success("Login successful!");
+    router.push("/dashboard");
+    return;
+  }
+
+  // Login error
+  if (loginStatus === Status.ERROR) {
+    toast.error("Login failed. Check your credentials.");
+  }
+
+  // Forgot password error
+  if (forgotPasswordStatus === Status.ERROR && isForgotPassword) {
+    toast.error("Failed to send reset link.");
+  }
+
+}, [loginStatus, forgotPasswordStatus, user, router, isForgotPassword]);
   return (
     <div className="w-full min-h-screen flex items-center justify-center p-4 bg-slate-900">
       <div className="relative w-full max-w-5xl">
@@ -98,12 +129,13 @@ export const LoginPage = () => {
                 </form>
                 {/* Forgot Password Link */}
 <div className="text-right mt-2">
-  <Link
-    href="/forgot-password"
+  <button
+    type="button"
+    onClick={handleForgotPassword}
     className="text-blue-400 hover:text-blue-500 hover:underline text-sm font-medium transition-colors"
   >
     Forgot password?
-  </Link>
+  </button>
 </div>
               </div>
             </div>
