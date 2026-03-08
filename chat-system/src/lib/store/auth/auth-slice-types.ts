@@ -12,9 +12,18 @@ export interface User {
   role?: string;
   isOnBoarded?: boolean;
   token?: string;
+  
 }
 
 export interface AuthState {
   user: User | null;
-  status: Status;
+
+  loginStatus: Status;
+  registerStatus: Status;
+  otpStatus: Status;
+
+  forgotPasswordStatus: Status;
+  resetPasswordStatus: Status;
+
+  fetchUserStatus: Status;
 }
