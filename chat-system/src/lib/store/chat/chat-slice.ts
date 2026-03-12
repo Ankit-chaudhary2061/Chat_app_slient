@@ -41,14 +41,14 @@ const chatSlice = createSlice({
       state.messages = [];
     },
 
-    // ⭐ DELETE MESSAGE
+ 
     removeMessage: (state: ChatState, action: PayloadAction<string>) => {
       state.messages = state.messages.filter(
         (msg) => msg._id !== action.payload
       );
     },
 
-    // ⭐ UPDATE MESSAGE
+   
     editMessage: (state: ChatState, action: PayloadAction<Message>) => {
       const index = state.messages.findIndex(
         (msg) => msg._id === action.payload._id
@@ -108,7 +108,7 @@ export function fetchConversations() {
     try {
       dispatch(setLoading(Status.SUCCESS));
 
-      const response = await api.get("/chat-partners");
+      const response = await api.get("/conversation");
 
       dispatch(setConversations(response.data.data));
 

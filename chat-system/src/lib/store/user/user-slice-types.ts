@@ -19,10 +19,17 @@ export interface User {
   bio?: string;
   location?: string;
   phoneNumber?: string;
-  nativeLanguage?: string;
-  learningLanguage?: string;
+
   profileImage?: ProfileImage;
   friends: UserSummary[]; 
+}
+
+export interface UpdateProfilePayload {
+  username?: string;
+  bio?: string;
+  location?: string;
+  phoneNumber?: string;
+  image?: File;
 }
 
 
