@@ -1,4 +1,5 @@
 import Sidebar from "@/src/lib/components/sidebar";
+import { ReduxProvider } from "@/src/lib/provider/provider";
 
 
 export default function DashboardLayout({
@@ -13,7 +14,9 @@ export default function DashboardLayout({
       <Sidebar />
 
       {/* PAGE CONTENT */}
+      <ReduxProvider>
       {children}
+      </ReduxProvider>
 
     </div>
   );
