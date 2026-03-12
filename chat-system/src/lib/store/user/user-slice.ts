@@ -10,6 +10,7 @@ const initialState: UserState = {
   recommendedUsers: [],
   friendRequests: [],
   loading: Status.IDLE,
+  activeUsers: [],   // ✅ new
 };
 
 const userSlice = createSlice({
@@ -35,6 +36,9 @@ const userSlice = createSlice({
     setLoading(state: UserState, action: PayloadAction<Status>) {
       state.loading = action.payload;
     },
+    setActiveUsers(state: UserState, action: PayloadAction<string[]>) {
+  state.activeUsers = action.payload;
+}
   },
 });
 

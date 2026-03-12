@@ -29,5 +29,7 @@ export interface ChatState {
   conversations: Conversation[];
   messages: Message[];
   activeConversation: string | null;
-status:Status
+  selectedUser: string | null;
+   activeTab: "chats" | "contacts";
+  status: Status;
 }

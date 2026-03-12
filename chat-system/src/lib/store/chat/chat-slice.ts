@@ -6,11 +6,14 @@ import { ChatState, Conversation, Message } from "./chat-slice-types";
 
 
 
+
 const initialState: ChatState = {
   conversations: [],
   messages: [],
   activeConversation: null,
- status:Status.IDLE
+  selectedUser: null,
+  activeTab: "chats",
+  status: Status.IDLE
 };
 
 const chatSlice = createSlice({
@@ -47,6 +50,9 @@ const chatSlice = createSlice({
         (msg) => msg._id !== action.payload
       );
     },
+    setActiveTab: (state: ChatState, action: PayloadAction<"chats" | "contacts">) => {
+  state.activeTab = action.payload;
+},
 
    
     editMessage: (state: ChatState, action: PayloadAction<Message>) => {
@@ -58,7 +64,11 @@ const chatSlice = createSlice({
         state.messages[index] = action.payload;
       }
     },
+    setSelectedUser: (state: ChatState, action: PayloadAction<string>) => {
+  state.selectedUser = action.payload;
+},
   },
+  
 });
 
 export const {
@@ -66,9 +76,11 @@ export const {
   setMessages,
   addMessage,
   setActiveConversation,
+  setSelectedUser,
   setLoading,
   clearMessages,
   removeMessage,
+  setActiveTab,
   editMessage
 } = chatSlice.actions;
 
@@ -245,4 +257,24 @@ export function markMessagesSeen(conversationId: string) {
   };
 }
 
+export function selectUser(userId: string) {
+  return async function selectUserThunk(dispatch: AppDispatch) {
+    try {
 
+      dispatch(setSelectedUser(userId))
+
+      const response = await api.post("/conversation", {
+        receiverId: userId,
+      })
+
+      const conversation = response.data.data
+
+      dispatch(setActiveConversation(conversation._id))
+
+      dispatch(fetchMessages(conversation._id))
+
+    } catch (error) {
+      console.log("Select user error:", error)
+    }
+  }
+}
