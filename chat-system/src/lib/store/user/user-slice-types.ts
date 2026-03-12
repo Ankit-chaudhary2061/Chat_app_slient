@@ -56,4 +56,5 @@ export interface UserState {
   recommendedUsers: UserSummary[];
   friendRequests: FriendRequest[];
   loading: Status;
+  activeUsers: string[]; // userIds that are online
 }

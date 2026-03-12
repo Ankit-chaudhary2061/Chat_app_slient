@@ -1,4 +1,4 @@
-export default function ChatInfo() {
+export default function ChatContainer() {
   return (
     <div>
 

@@ -7,6 +7,8 @@ import notificationReducer from "./notification/notification-slice";
 import postReducer from './post/post-slice'
 import storyReducer from './story/story-slice'
 import commentReducer from './comment/comment-slice'
+import chatReducer from './chat/chat-slice'
+
 
 const store = configureStore({
   reducer: {
@@ -16,7 +18,8 @@ const store = configureStore({
     notification: notificationReducer,
     post:postReducer,
     story:storyReducer,
-    comment:commentReducer
+    comment:commentReducer,
+    chat:chatReducer
 
   },
 });
